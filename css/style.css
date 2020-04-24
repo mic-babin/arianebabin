@@ -1,0 +1,450 @@
+/* Home */
+#showcase {
+  position: relative;
+  background-image: url('../img/showcase.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
+
+#showcase-content {
+  height: 85vh;
+}
+
+#contact {
+  position: relative;
+  background-image: url('../img/form-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 52rem;
+  width: 100%;
+}
+
+/* A propos */
+
+#showcase-apropos {
+  position: relative;
+  background-image: url('../img/apropos.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
+
+#showcase-apropos .showcase-content {
+  z-index: 1;
+}
+
+.mission-image {
+  position: relative;
+  background-image: url('../img/mission.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 600px;
+  width: 100%;
+}
+
+.services-image {
+  position: relative;
+  background-image: url('../img/services.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 600px;
+  width: 100%;
+}
+
+#about-services p {
+  font-size: 1.2rem;
+}
+
+/* Services */
+#showcase-services {
+  position: relative;
+  background-image: url('../img/services_showcase.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
+
+#showcase-services .showcase-content {
+  z-index: 2;
+}
+
+.bg-overlay-white-7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.6);
+  height: 90vh;
+  width: 100%;
+  z-index: 1;
+}
+
+#services-content {
+  height: 100%;
+  width: 100%;
+}
+
+#sideBarsm {
+  display: none;
+}
+
+#sideBar {
+  display: block
+}
+
+/* Services: Evaluation */
+#evaluation>div {
+  width: 100%;
+  height: 400px;
+  background: url('../img/evaluations.jpg');
+  background-position: center 33%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#accompagnement>div {
+  width: 100%;
+  height: 400px;
+  background: url('../img/accompagnement.jpg');
+  background-position: center 33%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#conferences-bg {
+  width: 100%;
+  height: 400px;
+  background: url('../img/conferences.jpg');
+  background-position: center 33%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Services: Conferences */
+#conferences #table-container {
+  height: 370px !important;
+  overflow-x: hidden !important;
+}
+
+#conferences #table-container td {
+  cursor: pointer;
+}
+
+/* width */
+#conferences #table-container::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+#conferences #table-container::-webkit-scrollbar-track {
+  background: #ccc;
+  margin-left: 1rem;
+}
+
+/* Handle */
+#conferences #table-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+  margin-left: 1rem;
+}
+
+/* Handle on hover */
+#conferences #table-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  margin-left: 1rem;
+}
+
+
+#borderless-cell {
+  border-top: 1px solid Transparent !important;
+}
+
+.c-90 {
+  width: 99%;
+}
+
+#services ul li:hover a {
+  color: #dc3545 !important;
+}
+
+/* Contact */
+
+#showcase-contact {
+  position: relative;
+  background-image: url('../img/contact.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+}
+
+#showcase-contact h2,
+#showcase-contact h4 {
+  font-weight: 600;
+}
+
+#showcase-contact .showcase-content {
+  z-index: 2;
+}
+
+.bg-overlay-white {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.3);
+  height: 90vh;
+  width: 100%;
+  z-index: 1;
+}
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+
+
+#contact-contact ul li:hover a {
+  color: #dc3545 !important;
+}
+
+/* Utilities */
+a {
+  text-decoration: none !important;
+}
+
+.l-height2 {
+  line-height: 2;
+}
+
+.l-height3 {
+  line-height: 3;
+}
+
+.m-navbar {
+  margin-top: 13vh;
+}
+
+.mx-10vw {
+  margin-right: 10vw;
+  margin-left: 10vw;
+}
+
+.px-10vw {
+  padding-right: 10vw;
+  padding-left: 10vw;
+}
+
+.px-5vw {
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
+
+.p-section {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.p-card {
+  padding: 7rem 3rem;
+
+}
+
+.bg-medium {
+  background-color: rgba(60, 60, 59, 0.9);
+}
+
+.bg-dark {
+  background-color: #3c3c3b !important;
+}
+
+.bg-light-med {
+  background: rgba(238, 238, 238, 0.781) !important;
+
+}
+
+.word-space {
+  word-spacing: 5px;
+}
+
+.portrait {
+  transition: all 0.5s;
+}
+
+.portrait:hover {
+  transform: scale(1.03) !important;
+}
+
+.line {
+  width: 4rem;
+  height: 0.5rem;
+  border-bottom: 2px solid #dc3545;
+  position: absolute;
+}
+
+/* Form */
+.form-outline-cell {
+  background: rgba(0, 0, 0, 0) !important;
+  border: solid 2px #dc3545 !important;
+  color: #f8f9fa;
+}
+
+.form-outline-cell::placeholder {
+  color: #f8f9fa;
+  text-transform: uppercase;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="email"]:focus {
+
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #dc3545 !important;
+  color: #f8f9fa;
+}
+
+#contact-contact .form-outline-cell,
+#contact-contact .form-outline-cell::placeholder,
+#contact-contact textarea:focus,
+#contact-contact input[type="text"]:focus,
+#contact-contact input[type="email"]:focus {
+  color: #343a40;
+}
+
+#contact-contact .form-outline-cell {
+  border: solid 1px #dc3545 !important;
+}
+
+
+/* Navbar DropDown */
+.navbar ul li {
+  position: relative;
+}
+
+.navbar ul li:hover a {
+  color: #dc3545 !important;
+}
+
+.active {
+  color: #dc3545 !important;
+}
+
+
+/* Hide Nested ul by default */
+
+.navbar ul li ul {
+  display: none;
+  list-style: none;
+}
+
+/* Nested dropdown Show */
+
+.navbar ul li:hover ul {
+  display: block;
+  position: absolute;
+  left: -75px;
+  width: 250px;
+  margin-top: 0;
+}
+
+.navbar ul li:hover ul li {
+  background: #f8f9faee;
+  width: 100%;
+  padding: 2rem;
+  transition: 0.35s all ease;
+}
+
+.navbar ul li:hover ul li a {
+  color: #6c757d !important;
+  transition: 0.35s all ease;
+}
+
+.navbar ul li:hover ul li:hover {
+  background: #e0e0e0e0;
+  transition: 0.35s all ease;
+}
+
+.navbar ul li:hover ul li:hover a {
+  color: #dc3545 !important;
+  transition: 0.35s all ease;
+}
+
+/* Navbar transition */
+#logo {
+  height: 79px;
+  width: 231px;
+  transition: 0.35s all ease;
+}
+
+.scrolled {
+  background: #f8f9faee !important;
+  transition: 0.35s all ease;
+}
+
+.scrolled #logo {
+  height: 40px !important;
+  width: 115px !important;
+  transition: 0.35s all ease;
+}
+
+.scrolled .py-3 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  transition: 0.35s all ease;
+}
+
+/* Navbar */
+#servicesnavmd {
+  display: none;
+}
+
+
+/* Accordion */
+
+#missionAccordion .card-header button {
+  text-decoration: none !important;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+#missionAccordion .card-header button:hover {
+  color: #dc3545 !important;
+}
+
+/* Carousel */
+.carousel-control-next-icon,
+.carousel-control-prev-icon,
+.carousel-indicators li {
+  filter: invert(1);
+  opacity: 0.6;
+}
+
+/* Footer */
+
+.fa-facebook-f {
+  color: #4267B2 !important;
+}
+
+.fa-linkedin {
+  color: #0077b5
+}

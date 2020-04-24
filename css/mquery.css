@@ -1,0 +1,347 @@
+@media screen and (max-width: 1300px) {
+  .m-navbar {
+    margin-top: 10vh;
+  }
+
+  .navbar .py-3 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+
+  #logo {
+    height: 60px;
+    width: 175px;
+  }
+
+  #showcase p {
+    margin-right: 4rem;
+  }
+
+  .mx-10vw {
+    margin-right: 5vw;
+    margin-left: 5vw;
+  }
+
+  .l-height2 {
+    line-height: 1.7;
+  }
+
+  .l-height3 {
+    line-height: 2;
+  }
+
+  #showcase-apropos .my-3,
+  #showcase-apropos .my-4 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  #showcase-apropos .py-5,
+  #showcase-apropos .my-4 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+  #showcase-services .my-3,
+  #showcase-services .my-4 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  #showcase-services .py-5,
+  #showcase-services .my-4 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+  #servicesContent .px-10vw {
+    padding-right: 5vw;
+    padding-left: 5vw;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+
+  #servicesnav {
+    display: none;
+  }
+
+  #servicesnavmd {
+    display: block;
+  }
+
+  #servicesnavmd div {
+    background-color: #f8f9fa00;
+    color: rgba(0, 0, 0, .5) !important;
+  }
+
+  #servicesnavmd div a:first-child {
+    margin-top: -0.75rem;
+  }
+
+  #showcase,
+  #showcase-apropos,
+  #showcase-services,
+  #showcase-content,
+  #showcase-contact,
+  .bg-overlay-white-7,
+  .bg-overlay-white {
+    height: 50vh;
+    background-size: 1200px;
+    background-position: center top;
+  }
+
+  .bg-overlay-white-sm {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.6);
+    height: 50vh;
+    width: 100%;
+    z-index: 1;
+  }
+
+  #showcase .showcase-content {
+    z-index: 2;
+  }
+
+  #showcase p {
+    margin-right: 0;
+  }
+
+  #showcase-apropos h4,
+  #showcase-services h4 {
+    font-size: 1.2rem;
+  }
+
+  .mission-text,
+  .mission-image,
+  .services-image {
+    display: none;
+  }
+
+  .p-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .px-5vw {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  #servicesContent .px-10vw {
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+
+  .sidebar ul li {
+    font-size: 0.8rem !important;
+  }
+
+  #conferences h4 {
+    font-size: 1.2rem !important;
+  }
+
+  #conferences p.lead {
+    font-size: 1rem !important;
+  }
+
+  footer,
+  footer .text-right {
+    text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  #logo {
+    height: 40px;
+    width: 115px;
+  }
+
+  .navbar ul li:hover ul {
+    display: none;
+  }
+
+  .m-navbar {
+    margin-top: 6vh;
+  }
+
+  #showcase,
+  #showcase-apropos,
+  #showcase-services,
+  #showcase-content,
+  #showcase-contact,
+  .bg-overlay-white-7,
+  .bg-overlay-white,
+  .bg-overlay-white-sm {
+    height: 97vh !important;
+    background-size: 1400px;
+    background-position: 65% top;
+  }
+
+
+
+  #showcase p {
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+
+  .mx-10vw {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .mr-3 {
+    margin-right: 0 !important;
+  }
+
+  .col,
+  .col-lg-6 {
+    padding: 0;
+  }
+
+  #home-equipe .my-4 {
+    margin: 1.5rem 0 !important;
+  }
+
+  #home-equipe .mb-4 {
+    margin: 0 0 0.5rem 0 !important;
+  }
+
+  #home-equipe .py-4 {
+    padding: 0.5rem 0 !important;
+  }
+
+
+  #showcase-apropos h4,
+  #showcase-services h4 {
+    font-size: 1rem;
+  }
+
+  #equipe-slider p {
+    font-size: 1rem;
+  }
+
+  #about-services {
+    display: none;
+  }
+
+  #sideBarsm {
+    display: block;
+  }
+
+  #sideBar {
+    display: none
+  }
+
+  #services .h1 {
+    font-size: 2rem !important;
+  }
+
+  #services {
+    overflow-x: hidden;
+  }
+
+  #services #info {
+    display: none;
+  }
+
+  #services .p-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  #sideBarsm ul li a {
+    font-size: 1.2rem;
+  }
+
+  #contactpage {
+    overflow-x: hidden;
+  }
+
+  #contactpage #info-services {
+    display: none;
+  }
+
+  #contactpage #sideBar-contact {
+    background: #eee !important;
+  }
+
+  .p-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  #sideBar-contact.p-section {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  #sideBar-contact ul li {
+    font-size: 1.2rem !important;
+  }
+
+  .display-4 {
+    font-size: 2rem;
+    padding-top: 4rem;
+  }
+
+  .px-5vw {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+
+  #servicesContent .px-10vw {
+    padding-right: 0rem;
+    padding-left: 0rem;
+  }
+
+  /* .sidebar ul li {
+    font-size: 0.8rem !important;
+  }
+
+  #conferences h4 {
+    font-size: 1.2rem !important;
+  }
+
+  #conferences p.lead {
+    font-size: 1rem !important;
+  } */
+
+  footer,
+  footer .text-right {
+    text-align: center !important;
+    font-size: 0.7rem;
+  }
+}
+
+
+@media screen and (max-height: 425px) {
+  .navbar {
+    font-size: 0.9rem;
+  }
+
+  #showcase,
+
+  #showcase-services,
+  #showcase-content,
+
+  .bg-overlay-white-sm {
+    height: 120vh;
+
+  }
+
+  .bg-overlay-white-7,
+  #showcase-apropos,
+  #showcase-contact,
+  .bg-overlay-white {
+    height: 130vh;
+  }
+
+  .display-4 {
+    padding-top: 0rem;
+  }
+}

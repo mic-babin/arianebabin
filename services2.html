@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mquery.css">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <script src="https://kit.fontawesome.com/308eb90e36.js" crossorigin="anonymous"></script>
+  <title> Babin Consultants | Services</title>
+</head>
+
+<body id="services">
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light mb-3">
+    <div class="container-fluid py-3 px-5 navbar-padding">
+      <a class="navbar-brand" href="index.html"><img id="logo" src="img/logo.png" alt="logo"></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item mr-4">
+            <a class="nav-link" href="index.html">Accueil</a>
+          </li>
+          <li class="nav-item mr-4">
+            <a class="nav-link" href="apropos.html">À propos</a>
+          </li>
+          <li id="servicesnav" class="nav-item  mr-4">
+            <a href="services.html" class="nav-link active">Services</a>
+            <ul>
+              <li><a href="services.html#services"></a>Évaluation</a></li>
+              <li><a href="services2.html#services"></a>Accompagnement</a></li>
+              <li><a href="services3.html#services"></a>Conférences</a></li>
+            </ul>
+          </li>
+          <li id="servicesnavmd" class="nav-item  mr-4 dropdown ">
+            <a href="services.html" class="nav-link d-inline-block">Services</a><a href="services.html"
+              class="nav-link dropdown-toggle d-inline-block" data-toggle="dropdown">&nbsp;</a>
+            <div class="dropdown-menu px-3 pb-3 align-items-center border-0">
+              <a href="services.html#services" class="dropdown-item pb-3 px-3"></a>Évaluation</a>
+              <a href="services2.html#services" class="dropdown-item p-3"></a>Accompagnement</a>
+              <a href="services3.html#services" class="dropdown-item p-3"></a>Conférences</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Section: Showcase -->
+  <div class="bg-overlay-white-7 m-navbar"></div>
+  <section id="showcase-services" class="m-navbar">
+    <div class="container">
+      <div id="showcase-content" class="row align-items-center ">
+        <div class="col-md-12 p-section text-center showcase-content">
+          <h2 class="h1 text-danger my-3 text-uppercase">Nos services</h2>
+          <h4 class=" py-5 my-4 l-height2 font-weight-normal">Babin Consultants, c’est l’évaluation de votre clinique
+            dentaire
+            basée sur des
+            méthodes comptables et financières qui ont fait leurs preuves, c’est un accompagnement personnalisé lors de
+            l’achat d’une clinique en fonction de vos besoins et selon votre vision, c’est des conférences qui traitent
+            de sujets qui vous rejoignent et qui vous permettent d’acquérir de nouvelles connaissances.
+          </h4>
+          <a href="#services" class="smooth-scroll">
+            <div class="btn btn-danger btn-lg px-5 rounded-0">Voir les services
+            </div>
+          </a>
+          </a>
+        </div>
+        <div class="col-md-6 col-lg-4"></div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Section: Services-->
+  <section id="services">
+    <div class="text-dark">
+      <div class="container-fluid">
+        <div class="row">
+          <div id="sideBarsm" class="col-md-4 bg-light p-section text-left px-5vw sidebar">
+            <h4 class="font-weight-normal text-uppercase my-3">Services</h4>
+            <div class="line mb-5"></div>
+            <ul class="l-height3 list-unstyled pt-4 mt-4">
+              <li>
+                <a href="#" class="text-dark anchor-tag" onclick="loadEvaluation()"><i
+                    class="fas fa-caret-right"></i>&nbsp;&nbsp;Évaluation
+                  de cliniques dentaires
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-dark anchor-tag" onclick="loadAccompagnement()"><i
+                    class="fas fa-caret-right"></i>&nbsp;&nbsp;Accompagnement lors
+                  de
+                  l’achat d’une clinique dentaire
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-dark anchor-tag" onclick="loadConferences()"><i
+                    class="fas fa-caret-right"></i>&nbsp;&nbsp;Conférences</a>
+              </li>
+            </ul>
+            <div id="info">
+              <h4 class="font-weight-normal text-uppercase my-3">INFORMATIONS GÉNÉRALES</h4>
+              <div class="line mb-5"></div>
+
+              <ul class="l-height3 list-unstyled pt-4 my-4">
+                <li><i class="fas fa-phone-square-alt"></i>&nbsp;&nbsp;581 307-0650</li>
+                <li><i class="fas fa-envelope-square"></i></i>&nbsp;&nbsp;info@babinconsultants.com</li>
+                <li><a href="https://www.facebook.com/babinconsultants/" target="_blank" class="text-dark"><i
+                      class="fab fa-facebook-square"></i>&nbsp;&nbsp;Suivez-nous sur Facebook!</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="servicesContent" class="col-md-8 p-section px-5vw">
+          </div>
+
+          <div id="sideBar" class="col-md-4 bg-light p-section text-left px-5vw sidebar">
+            <h4 class="font-weight-normal text-uppercase my-3">Services</h4>
+            <div class="line mb-5"></div>
+            <ul class="l-height3 list-unstyled pt-4 my-4">
+              <li>
+                <a href="#" class="text-dark anchor-tag" onclick="loadEvaluation()"><i
+                    class="fas fa-caret-right"></i>&nbsp;&nbsp;Évaluation
+                  de cliniques dentaires
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-dark anchor-tag" onclick="loadAccompagnement()"><i
+                    class="fas fa-caret-right"></i>&nbsp;&nbsp;Accompagnement lors
+                  de
+                  l’achat d’une clinique dentaire
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-dark anchor-tag" onclick="loadConferences()"><i
+                    class="fas fa-caret-right"></i>&nbsp;&nbsp;Conférences</a>
+              </li>
+            </ul>
+            <h4 class="font-weight-normal text-uppercase my-3">INFORMATIONS GÉNÉRALES</h4>
+            <div class="line mb-5"></div>
+
+            <ul class="l-height3 list-unstyled pt-4 my-4">
+              <li><i class="fas fa-phone-square-alt"></i>&nbsp;&nbsp;581 307-0650</li>
+              <li><i class="fas fa-envelope-square"></i></i>&nbsp;&nbsp;info@babinconsultants.com</li>
+              <li><a href="https://www.facebook.com/babinconsultants/" target="_blank" class="text-dark"><i
+                    class="fab fa-facebook-square"></i>&nbsp;&nbsp;Suivez-nous sur Facebook!</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light py-4 text-dark">
+    <div class="container-fluid px-5">
+      <div class="row">
+        <div class=" col-lg-6">© Copyright 2020 Babin Consultants&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;( 581) 307-0650
+        </div>
+        <div class="col-lg-6 text-right">info@babinconsultants.com&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a
+            href="https://www.facebook.com/babinconsultants/" target="_blank"><i
+              class=" fab fa-facebook-f mr-3"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+
+
+  <!-- Local JS File -->
+  <script src="js/main.js"></script>
+  <script>
+    $('#servicesContent').load('s-descriptions.html #accompagnement');
+  </script>
+
+</body>
+
+</html>
