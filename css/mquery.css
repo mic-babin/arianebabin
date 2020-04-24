@@ -237,19 +237,19 @@
     display: none
   }
 
-  #services .h1 {
+  #servicespage .h1 {
     font-size: 2rem !important;
   }
 
-  #services {
+  #servicespage {
     overflow-x: hidden;
   }
 
-  #services #info {
+  #servicespage #info {
     display: none;
   }
 
-  #services .p-section {
+  #servicespage .p-section {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }

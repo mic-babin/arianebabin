@@ -379,6 +379,12 @@ input[type="email"]:focus {
   transition: 0.35s all ease;
 }
 
+#services ul li:hover {
+  color: #6c757d !important;
+  transition: 0.35s all ease;
+}
+
+
 .navbar ul li:hover ul li:hover {
   background: #e0e0e0e0;
   transition: 0.35s all ease;
@@ -417,6 +423,7 @@ input[type="email"]:focus {
 #servicesnavmd {
   display: none;
 }
+
 
 
 /* Accordion */
