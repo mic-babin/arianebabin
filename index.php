@@ -228,7 +228,7 @@
               vos questions!
             </p>
 
-            <form id="contactForm" action="contact.php" method="post" role="form" enctype="multipart/form-data">
+            <form id="contactForm" action="contact.php" method="post">
               <div class="form-row">
                 <div class="col-md mb-4 mr-3">
                   <input type="text" name="name" id="name" placeholder="Nom" class="form-control form-outline-cell p-4">
@@ -250,7 +250,7 @@
                     class="form-control form-outline-cell px-4 mb-4" rows="5"></textarea>
                 </div>
               </div>
-              <button type="button" value="Envoyer"
+              <button type="button" name="submit"
                 class="btn btn-block btn-danger btn-lg text-uppercase rounded-0 btn-submit">Envoyer</button>
             </form>
           </div>
