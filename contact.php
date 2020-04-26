@@ -4,14 +4,14 @@
   $email = $_POST['email'];
   $message = $_POST['message'];
 
-  $email_from = 'ArianeBabin.com';
+  $email_from = 'ArianeBabin';
   $email_subject = 'Formulaire de contact';
   $email_body = "Nom : $name.\n".
-                "Téléphone : $phone.\n".
+                "Telephone : $phone.\n".
                 "Courriel : $email.\n".
                 "Message : $message.\n";
   
-  $to = "michael.babin@outlook.fr";
+  $to = "michael.babin86@gmail.com";
   $headers = "From: $email_from \r\n";
   $headers .= "Reply-To: $email \r\n";
 
