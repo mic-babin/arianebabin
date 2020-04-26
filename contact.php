@@ -10,6 +10,11 @@
                 "Téléphone : $phone.\n".
                 "Courriel : $email.\n".
                 "Message : $message.\n";
+  
+  $to = "michael.babin@outlook.fr";
+  $headers = "From: $email_from \r\n";
+  $headers .= "Reply-To: $email \r\n";
 
-
+  mail($to,$email_subject,$email_body,$headers);
+  header("location: index.html");
   ?>
